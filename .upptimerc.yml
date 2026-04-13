@@ -2,17 +2,41 @@ owner: omeroastore-ops
 repo: uptime-monitor
 
 sites:
-  - name: Secret Bar Menu
-    url: https://secretbar-bs.de/?menu=true
+  - name: SAFE Supabase Ping
+    url: https://wejiqzhpfeyvijeuftqg.supabase.co/rest/v1/menu_items?select=id&limit=1
+    method: GET
+    headers:
+      - "apikey: sb_publishable_PGUwuqwFXBvvCHeDF9wTdw_iVB3jxFW"
+      - "Authorization: Bearer sb_publishable_PGUwuqwFXBvvCHeDF9wTdw_iVB3jxFW"
+    expectedStatusCodes:
+      - 200
 
-  - name: Safe Bar Menu
-    url: https://safe-bs.de/#/menu
+  - name: SECRET Supabase Ping
+    url: https://uohymyvolbmmtxvgfmci.supabase.co/rest/v1/menu_items?select=id&limit=1
+    method: GET
+    headers:
+      - "apikey: sb_publishable_EPa-VfvGwHQSjEyJZWVszQ_gbmJ0wDI"
+      - "Authorization: Bearer sb_publishable_EPa-VfvGwHQSjEyJZWVszQ_gbmJ0wDI"
+    expectedStatusCodes:
+      - 200
 
-  - name: Brackwasser Cinema
-    url: https://omeroastore-ops.github.io/brackwasser-cinema/
+  - name: KARO Supabase Ping
+    url: https://qyryocrqmfurtswnirhq.supabase.co/rest/v1/menu_items?select=id&limit=1
+    method: GET
+    headers:
+      - "apikey: sb_publishable_w_JEAPUsj4A3lUvVI-QOoQ_AB67GjN3"
+      - "Authorization: Bearer sb_publishable_w_JEAPUsj4A3lUvVI-QOoQ_AB67GjN3"
+    expectedStatusCodes:
+      - 200
 
-  - name: KARO Kebab Menu
-    url: https://omeroastore-ops.github.io/KAROKEBABHOUSE/#menu
+  - name: BRACKWASSER Supabase Ping
+    url: https://keoqbzwajjsqodgwwpgk.supabase.co/rest/v1/menu_items?select=id&limit=1
+    method: GET
+    headers:
+      - "apikey: sb_publishable_P-n9Obun1wlv6nGS33RiRg_n7CvQK-H"
+      - "Authorization: Bearer sb_publishable_P-n9Obun1wlv6nGS33RiRg_n7CvQK-H"
+    expectedStatusCodes:
+      - 200
 
 status-website:
   baseUrl: /uptime-monitor
