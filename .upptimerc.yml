@@ -38,6 +38,15 @@ sites:
     expectedStatusCodes:
       - 200
 
+  - name: VELVET Supabase Ping
+    url: https://gikqajksdbbbarevmblk.supabase.co/rest/v1/menu_items?select=id&limit=1
+    method: GET
+    headers:
+      - "apikey: sb_publishable_AMGSNR4cRQsRdY8AZx2rmA_UNYud84i"
+      - "Authorization: Bearer sb_publishable_AMGSNR4cRQsRdY8AZx2rmA_UNYud84i"
+    expectedStatusCodes:
+      - 200
+
 status-website:
   baseUrl: /uptime-monitor
   name: Status Monitor
