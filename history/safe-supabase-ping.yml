@@ -1,7 +1,7 @@
 url: https://wejiqzhpfeyvijeuftqg.supabase.co/rest/v1/menu_items?select=id&limit=1
 status: up
 code: 200
-responseTime: 1183
-lastUpdated: 2026-04-17T23:40:25.896Z
+responseTime: 1823
+lastUpdated: 2026-04-18T23:36:35.891Z
 startTime: 2026-04-13T14:43:10.520Z
 generator: Upptime <https://github.com/upptime/upptime>
