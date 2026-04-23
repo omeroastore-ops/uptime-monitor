@@ -1,7 +1,7 @@
 url: https://qyryocrqmfurtswnirhq.supabase.co/rest/v1/menu_items?select=id&limit=1
 status: up
 code: 200
-responseTime: 751
-lastUpdated: 2026-04-22T23:47:58.787Z
+responseTime: 1057
+lastUpdated: 2026-04-23T23:49:05.547Z
 startTime: 2026-04-13T14:43:13.691Z
 generator: Upptime <https://github.com/upptime/upptime>
