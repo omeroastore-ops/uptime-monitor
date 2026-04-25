@@ -47,7 +47,7 @@ sites:
     expectedStatusCodes:
       - 200
 
-- name: BLANKBLITZ Supabase Ping
+  - name: BLANKBLITZ Supabase Ping
     url: https://dftmfzgspvvyhcpanfzf.supabase.co/rest/v1/gallery_items?select=id&limit=1
     method: GET
     headers:
@@ -55,7 +55,7 @@ sites:
       - "Authorization: Bearer sb_publishable_r4ncVTYiDKFtsOhxqJKZHg_uCW7E4a6"
     expectedStatusCodes:
       - 200
-      
+
 status-website:
   baseUrl: /uptime-monitor
   name: Status Monitor
