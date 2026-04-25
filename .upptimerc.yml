@@ -11,15 +11,6 @@ sites:
     expectedStatusCodes:
       - 200
 
- - name: blankblitz Supabase Ping
-    url: https://dftmfzgspvvyhcpanfzf.supabase.co/rest/v1/services?select=id&limit=1
-    method: GET
-    headers:
-      - "apikey: sb_publishable_r4ncVTYiDKFtsOhxqJKZHg_uCW7E4a6"
-      - "Authorization: Bearer sb_publishable_r4ncVTYiDKFtsOhxqJKZHg_uCW7E4a6"
-    expectedStatusCodes:
-      - 200
-
   - name: SECRET Supabase Ping
     url: https://uohymyvolbmmtxvgfmci.supabase.co/rest/v1/menu_items?select=id&limit=1
     method: GET
