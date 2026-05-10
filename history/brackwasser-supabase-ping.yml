@@ -1,7 +1,7 @@
 url: https://keoqbzwajjsqodgwwpgk.supabase.co/rest/v1/menu_items?select=id&limit=1
 status: up
 code: 200
-responseTime: 1257
-lastUpdated: 2026-05-09T23:51:46.009Z
+responseTime: 1157
+lastUpdated: 2026-05-10T23:53:42.832Z
 startTime: 2026-04-13T14:43:16.027Z
 generator: Upptime <https://github.com/upptime/upptime>
