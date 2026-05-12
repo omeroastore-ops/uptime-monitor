@@ -1,7 +1,7 @@
 url: https://gikqajksdbbbarevmblk.supabase.co/rest/v1/menu_items?select=id&limit=1
 status: up
 code: 200
-responseTime: 1156
-lastUpdated: 2026-05-11T23:59:16.722Z
+responseTime: 1084
+lastUpdated: 2026-05-12T23:59:53.226Z
 startTime: 2026-04-15T11:52:46.766Z
 generator: Upptime <https://github.com/upptime/upptime>
